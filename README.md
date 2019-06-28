@@ -25,8 +25,3 @@ El buider lo qUe hace en el programa es mostrar el personaje con el arma primari
 el director de esos elementos seleccionados los envia al costructor de cada personaje y finalmente y en la interfaz gráfica se muestra el personaje con el equipo seleccionado.
 Para la implementación del builder la fabrica abstrata deja de ser relevante porque el mismo constructor puede dar el personaje con el equipo que se desea y si se hbuera dejado la fabrica se realizaria un proceso que no es necesaio, por esta razón la fabrica abstacta se utilizará para la animaciones y el decorator. 
 
-## Adapter
-
-![adapter](https://github.com/cristianrodriguez05/CatalogoPJAnimado/blob/master/diagramas/adapter.png)
-
-Para la implementación del adapter se uso la fabrica ogro del proyecto seleecionado. El personaje solo tiene un arma primaria y un arma secundaria, se crea el adaptador para que la clase orco sea compatible con el constructor y así al momento de usar la clase del personaje permita mostrar lo que viene con el personaje, aparte de las clases creadas para complementarlo.
